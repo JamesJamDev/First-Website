@@ -18,6 +18,8 @@ function App() {
     fetchAPI();
   }, []);
 
+  
+
   return (
     <>
     <div className="App">
@@ -25,6 +27,9 @@ function App() {
       <a href="https://www.youtube.com/c/@JellyJamDev" target="_blank">
         <img src={jellyJamLogo} className="jellyjam" alt="JellyJam Logo" />
         </a>
+        </div>
+        <div>
+          <button onClick={() => setCount(count + 1)}>Button</button>
         </div>
         <textarea value={array} readOnly></textarea>
     </>
