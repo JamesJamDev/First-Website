@@ -8,7 +8,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 app.get('/api', (req, res) => {
-    res.json({fruits: ["apple", "banana", "orange", "kian"]});
+    res.json({projects: ["Boxception", "Timed Control 3D", "Lethal Company Mod"]});
     });
 
 

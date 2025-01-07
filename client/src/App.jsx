@@ -10,8 +10,8 @@ function App() {
 
   const fetchAPI = async () => {
     const response = await axios('http://localhost:8080/api');
-    setArray(response.data.fruits);
-    console.log(response.data.fruits);
+    setArray(response.data.projects);
+    console.log(response.data.projects);
   };
 
   useEffect(() => {
