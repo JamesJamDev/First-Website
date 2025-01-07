@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-    <div className="App">
+    {/* <div className="App">
       <h1>JellyJam</h1>
       <a href="https://www.youtube.com/c/@JellyJamDev" target="_blank">
         <img src={jellyJamLogo} className="jellyjam" alt="JellyJam Logo" />
@@ -31,7 +31,8 @@ function App() {
         <div>
           <button onClick={() => setCount(count + 1)}>Button</button>
         </div>
-        <textarea value={array} readOnly></textarea>
+        <textarea value={array} readOnly></textarea> */}
+        
     </>
   )
 }
