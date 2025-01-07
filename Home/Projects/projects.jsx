@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import jellyJamLogo from "../src/assets/jellyjam.png";
 import axios from "axios";
 
-function App() {
+function Projects() {
   const [count, setCount] = useState(0)
   const [array, setArray] = useState([]);
   
@@ -19,9 +19,9 @@ function App() {
     fetchAPI();
   }, []);
 
-  return (
+  /* return (
     <>
-     <div className="App">
+     <div className="Projects">
       <h1>JellyJam</h1>
       <a href="https://www.youtube.com/c/@JellyJamDev" target="_blank">
         <img src={jellyJamLogo} className="jellyjam" alt="JellyJam Logo" />
@@ -31,9 +31,8 @@ function App() {
           <button onClick={() => setCount(count + 1)}>Button</button>
         </div>
         <textarea value={array} readOnly></textarea> 
-        
     </>
-  )
+  ) */
 
 }
-export default ProjectDisplay;
+export default Projects;
