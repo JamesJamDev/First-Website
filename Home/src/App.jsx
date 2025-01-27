@@ -1,18 +1,17 @@
 import { useState, useEffect } from 'react'
-//import { JellyJamIcon } from "./JellyJamIcon.jsx"
-import steamicon from "./assets/steamlogo.png"
 import './App.css'
 import axios from "axios";
 import Test from './test.jsx'
+import Projects from './test.jsx';
 
 function App() {
-  
+  const [state, SetState]  = useState(1);
+
   return (
-    <>
-        <h1>Jelly Jam Dev</h1>
-        <button onClick={console.log("Hello!")}>clickme</button>
-        <Test />
-    </>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
+        <h1>Jelly Jam</h1>
+        <Projects />
+    </div>
   );
 }
 
