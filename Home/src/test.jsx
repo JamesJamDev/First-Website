@@ -13,7 +13,20 @@ export default function Projects() {
                 <h2>JellyJam's Tiny Company Mod (2024)</h2>
                 <p>JellyJam's Tiny Company Mod is a mod I created for 'Lethal Company'. This allows the players to shrink to a fraction of their size and
                     experience the world of Lethal Company in a whole new perspective, from struggling to climb up to the door, to a normally small bug being able
-                    to kidnap you. This is sure going to be a completely unique experience for the player.
+                    to kidnap you. This is sure to be a completely unique experience for the player.
+                </p>
+                <p>This mod has been played by many Youtubers, amassing over a total of 1 million views among the videos</p>
+            </div>
+            <div style={{textAlign: 'center', maxWidth: '700px'}}>
+                <h2>Timed Control 3D (2023)</h2>
+                <p>A remake of a game jam project where you have to survive in an area while defeating enemies, 
+                    you earn coins to then buy power ups such as more health, stationary turrets to defend you or even explosive arrows, 
+                    all to assist you in surviving the waves of enemies.
+                </p>
+            </div>
+            <div style={{textAlign: 'center', maxWidth: '700px'}}>
+                <h2></h2>
+                <p>
                 </p>
             </div>
         </div>
