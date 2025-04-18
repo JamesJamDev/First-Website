@@ -7,7 +7,7 @@ const JellyJamIcon = () => {
             <div>
                 <h1>JellyJam</h1>
                 <a href="https://www.youtube.com/c/@JellyJamDev" target="_blank" rel="noopener noreferrer">
-                    <img src={jellyJamLogo} className="jellyjam" alt="JellyJam Logo" style={{ width: '100px', height: '100px' }} />
+                    <img src={jellyJamLogo} className="jellyjam" alt="JellyJam Logo" style={{ width: '100px', height: '100px' }}/>
                 </a>
             </div>
         </div>
