@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import axios from "axios";
-import Test from './test.jsx'
-import Projects from './test.jsx';
+import Projects from './Projects.jsx';
 import JellyJamIcon from './JellyJamIcon.jsx';
 
 function App() {

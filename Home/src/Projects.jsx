@@ -1,11 +1,15 @@
 //import './test.css'
 import steamLogo from './assets/steamlogo.png'; 
+import boxceptionLogo from './assets/BoxceptionBanner.png';
+import React from 'react';
 export default function Projects() {
     return (
-        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', flexDirection: 'column', padding: '0 20px' }}>
+        
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', padding: '0 20px' }}>
             <h1>PROJECTS:</h1>
-            <div style={{ textAlign: 'center', maxWidth: '40%' }}>
+            <div style={{textAlign: 'center', maxWidth: '40%' }}>
                 <h2>Boxception (2025)</h2>
+                <img src={boxceptionLogo} className="Boxception" alt="Boxception Logo" style={{ width: '400px', height: '200px' }}/>
                 <p>Boxception is a 3D puzzle game I am developing, where you use a variety of unique boxes to complete puzzles while
                     taking control over various objects in the game world. The game is currently in development.
                 </p>
